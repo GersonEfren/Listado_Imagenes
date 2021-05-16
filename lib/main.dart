@@ -41,7 +41,7 @@ List<Widget> _buildGridTiles(numberOfTiles) {
   List<Container> containers = new List<Container>.generate(numberOfTiles, 
   (int index) {
     //index = 0, 1, 2,...
-    final imageName = index < 9 ? 'images/image0${index + 1}.JPG' : 'images/image${index + 1}.JPG';
+    final imageName = index < 9 ? 'images/image0${index + 1}.jpg' : 'images/image${index + 1}.jpg';
     return new Container(
       child: new Image.asset(imageName, fit: BoxFit.fill),
     );
